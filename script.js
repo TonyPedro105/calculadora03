@@ -13,7 +13,7 @@ function limpar(){
 
 function porcento(){
      let num = document.getElementById('display').value;
-     document.getElementById('display').value = num / 100
+     document.getElementById('display').value = num / 100 + "*"
      
 }
 
